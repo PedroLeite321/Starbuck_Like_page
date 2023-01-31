@@ -145,7 +145,7 @@ article{
 }
 
 .cups:nth-child(1){
-    display:none;
+    display:flex;
     background-position: center;
     height:460px;
     rotate: 3deg;
@@ -159,7 +159,7 @@ article{
 }
 
 .cups:nth-child(3){
-    display:flex;
+    display:none;
     background-position: center;
     height:460px;
     rotate: 3deg;
