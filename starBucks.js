@@ -41,7 +41,7 @@ const getDifferentCup   = () => {
 
         if(bg == "green")   {
 
-            greenCircle.style.backgroundColor = "rgb(55, 100, 55)";
+            greenCircle.style.background = "linear-gradient(to right, #003300 0%, #00cc66 100%)";
             sBtext.style.color = "rgb(55, 100, 55)"
             greenCupImg.style.display = "flex";
             pinkCupImg.style.display = "none";
@@ -50,8 +50,8 @@ const getDifferentCup   = () => {
         }
         else if(bg == "pink")   {
 
-            greenCircle.style.backgroundColor = "pink";
-            sBtext.style.color = "pink";
+            greenCircle.style.background = "linear-gradient(to right, #cc66ff 5%, #ff99cc 85%)";
+            sBtext.style.color = "rgb(175, 44, 92) ";
             pinkCupImg.style.display = "flex";
             greenCupImg.style.display = "none";
             strawCupImg.style.display = "none";
@@ -59,8 +59,8 @@ const getDifferentCup   = () => {
         }
         else if(bg == "strawberry") {
 
-            greenCircle.style.backgroundColor = "rgb(175, 44, 92)";
-            sBtext.style.color = "rgb(175, 44, 92)";
+            greenCircle.style.background = "linear-gradient(to left, #ffccff 5%, #ff66ff 85%)";
+            sBtext.style.color = "rgb(254, 144, 212)";
             strawCupImg.style.display = "flex";
             pinkCupImg.style.display = "none";
             greenCupImg.style.display = "none";
