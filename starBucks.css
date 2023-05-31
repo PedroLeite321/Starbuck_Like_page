@@ -119,17 +119,17 @@ ul  {
     display:flex;
     position:fixed;
     right:-250px;
-    top:185px;
+    top:125px;
     overflow:auto;
     align-items:center;
     min-height: 500px;
-    max-height: 700px;
-    min-width: 570px;
-    max-width: 695px;
+    max-height: 550px;
+    min-width: 470px;
+    max-width: 525px;
 }
 
 #greenCircle    {
-    background-color: rgb(55, 100, 55);
+    background: linear-gradient(to right, #003300 0%, #00cc66 100%);
     border-radius:100%;
     height:100%;
     width:100%;
@@ -139,13 +139,25 @@ ul  {
 .cups{
     height: 70%;
 }
+
+/* so javascript will show only one. */
+
+.cups:nth-child(1){
+    display:flex;
+}
+
 .cups:nth-child(2){
+    display:none;
     position:relative;
     left:30px;
     height:71%;
     rotate: -16deg;
     background-position: center;
     
+}
+
+.cups:nth-child(3){
+    display:none;
 }
 
 #coffeeContainer    {
@@ -183,12 +195,73 @@ ul  {
     justify-content: center;
     width:50px;
     height:50px;
+    object-fit: contain;
     text-decoration: none;
 }
 
 /*Media queries area*/
 
-@media screen (min-width: 1050px){
+@media screen and (max-width: 1050px)   {
+    #greenCircleContainer{
+        display:flex;
+        position:fixed;
+        right:-180px;
+        top:105px;
+        overflow:auto;
+        align-items:center;
+        min-height: 200px;
+        max-height: 470px;
+        min-width: 270px;
+        max-width: 455px;
+        margin-right:20px;
+    }
     
+    #greenCircle    {
+        background: linear-gradient(to right, #003300 0%, #00cc66 100%);
+        border-radius:100%;
+        height:100%;
+        width:100%;
+        
+    }
+    .title-textWrapper{
+        display: flex;
+        position:relative;
+        flex-direction: column;
+        justify-content:center;
+        align-items:start;
+        overflow: hidden;
+        min-width:200px;
+        max-width:250px;
+        min-height:160px;
+        max-height:fit-content;
+        margin-left:38px;
+        padding:20px;
+        font-size:10px;
+        
+    }
+    .starBucksH2  {
+        margin:0px auto;
+        font-size: 30px;
+        line-height: 0px;
+        font-weight:500;
+        color:rgb(36, 36, 36);
+        position:relative;
+        width:100%;
+        height:100%;
+    }
+    #Starbucks{
+        color:rgb(55, 100, 55);
+        font-weight: 700;
+        font-size:33px;
+    }
+    .text{
+        width:100%;
+        padding-right:25px;
+        padding-bottom:5px;
+        font-size:12px;
+        text-justify: distribute;
+        text-transform:capitalize;
+        line-height: 13px;
+    }
 }
-@media screen(min-height: ){}
+
