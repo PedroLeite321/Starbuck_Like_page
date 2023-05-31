@@ -289,3 +289,116 @@ ul  {
     }
 }
 
+@media screen and (max-width: 500px)   {
+    header  {
+        display:flex;
+        align-items: center;
+        position:absolute;
+        top: 0;
+        left:0;
+        justify-content:center;
+        min-height:50px;
+        max-height:100px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    nav {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        width:100%;
+        height:100px;
+        justify-content: space-between;
+        position: relative;
+        padding-left:7px;
+        padding-right:10px;
+    }
+    #greenCircleContainer{
+        display:flex;
+        position:fixed;
+        right:-60px;
+        top:105px;
+        overflow:auto;
+        align-items:center;
+        min-height: 100px;
+        max-height: 250px;
+        min-width: 270px;
+        max-width: 285px;
+        margin-right:20px;
+    }
+    
+    #greenCircle    {
+        background: linear-gradient(to right, #003300 0%, #00cc66 100%);
+        border-radius:100%;
+        height:100%;
+        width:100%;
+        
+    }
+    .title-textWrapper{
+        display: flex;
+        position:relative;
+        flex-direction: column;
+        justify-content:center;
+        align-items:start;
+        overflow: hidden;
+        min-width:100px;
+        max-width:180px;
+        min-height:130px;
+        max-height:fit-content;
+        margin-left:8px;
+        padding:10px;
+        
+    }
+    .starBucksH2  {
+        margin:0px auto;
+        font-size: 20px;
+        line-height: 0px;
+        font-weight:500;
+        color:rgb(36, 36, 36);
+        position:relative;
+        width:100%;
+        height:100%;
+    }
+    #Starbucks{
+        color:rgb(55, 100, 55);
+        font-weight: 700;
+        font-size:23px;
+    }
+    .text{
+        width:100%;
+        padding-right:5px;
+        padding-bottom:5px;
+        font-size:13px;
+        text-justify: distribute;
+        text-transform:capitalize;
+        line-height: 13px;
+    }
+    #coffeeContainer{
+        display:flex;
+        justify-content: center;
+        max-height:50px;
+        min-width:80px;
+        
+    }
+    .smallCups{
+        width:100%;
+        height:100%;
+    }
+    .smallCups > button{
+        border: black solid 1px;
+        background-position: center;
+        
+    }
+    .smallCups > button:hover{
+        background-color:wheat;
+    }
+    .smallImage {
+        cursor: pointer;
+        width:20px;
+        height:30px;
+        object-fit: contain;
+        text-decoration: none;
+    }
+}
