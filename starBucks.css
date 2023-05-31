@@ -289,7 +289,7 @@ ul  {
     }
 }
 
-@media screen and (max-width: 500px)   {
+@media screen and (max-width: 800px)   {
     header  {
         display:flex;
         align-items: center;
