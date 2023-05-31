@@ -179,8 +179,7 @@ ul  {
     height:80px;
 }
 .smallCups > button{
-    border: none;
-    background-size: contain;
+    border: black solid 1px;
     background-position: center;
     width:fit-content;
     height: fit-content;
@@ -262,6 +261,31 @@ ul  {
         text-justify: distribute;
         text-transform:capitalize;
         line-height: 13px;
+    }
+    .smallCups{
+        display:flex;
+        flex-direction: row;
+        margin-right:15px;
+        align-content: center;
+        justify-content: space-evenly;
+        width:40px;
+        height:25px;
+    }
+    .smallCups > button{
+        border: black solid 1px;
+        background-position: center;
+        width:fit-content;
+        height: fit-content;
+    }
+    .smallCups > button:hover{
+        background-color:wheat;
+    }
+    .smallImage {
+        cursor: pointer;
+        width:20px;
+        height:30px;
+        object-fit: contain;
+        text-decoration: none;
     }
 }
 
