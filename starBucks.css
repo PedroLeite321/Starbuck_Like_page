@@ -321,14 +321,14 @@ ul  {
     #greenCircleContainer{
         display:flex;
         position:fixed;
-        right:-60px;
-        top:105px;
+        right:-120px;
+        top:185px;
         overflow:auto;
         align-items:center;
         min-height: 100px;
-        max-height: 250px;
+        max-height: 350px;
         min-width: 200px;
-        max-width: 255px;
+        max-width: 285px;
         margin-right:20px;
     }
     
