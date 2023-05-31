@@ -315,6 +315,9 @@ ul  {
         padding-left:7px;
         padding-right:10px;
     }
+    .list{
+        font-size:12px;
+    }
     #greenCircleContainer{
         display:flex;
         position:fixed;
@@ -324,8 +327,8 @@ ul  {
         align-items:center;
         min-height: 100px;
         max-height: 250px;
-        min-width: 270px;
-        max-width: 285px;
+        min-width: 200px;
+        max-width: 255px;
         margin-right:20px;
     }
     
@@ -378,6 +381,8 @@ ul  {
     #coffeeContainer{
         display:flex;
         justify-content: center;
+        align-items: center;
+        align-content: center;
         max-height:50px;
         min-width:80px;
         
