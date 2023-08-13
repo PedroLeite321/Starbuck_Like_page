@@ -87,7 +87,7 @@ ul  {
     max-height:fit-content;
     margin-left:38px;
     padding:20px;
-    
+    background-color: yellowgreen;
 }
 
 .starBucksH2  {
@@ -99,6 +99,7 @@ ul  {
     position:relative;
     width:100%;
     height:100%;
+    color: #5e4c35;
 }
 
 #Starbucks{
@@ -113,6 +114,7 @@ ul  {
     text-justify: distribute;
     text-transform:capitalize;
     line-height: 23px;
+    color: #53422b;
 }
 
 #greenCircleContainer{
@@ -230,28 +232,31 @@ ul  {
         align-items:start;
         overflow: hidden;
         min-width:200px;
-        max-width:250px;
+        max-width:400px;
+        background-color: yellowgreen;
         min-height:160px;
         max-height:fit-content;
         margin-left:38px;
-        padding:20px;
-        font-size:10px;
+        padding:30px;
+        font-size:20px;
+        
         
     }
     .starBucksH2  {
         margin:0px auto;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 0px;
         font-weight:500;
         color:rgb(36, 36, 36);
         position:relative;
         width:100%;
         height:100%;
+        color: #5e4c35;
     }
     #Starbucks{
         color:rgb(55, 100, 55);
         font-weight: 700;
-        font-size:33px;
+        font-size:45px;
     }
     .text{
         width:100%;
@@ -261,6 +266,8 @@ ul  {
         text-justify: distribute;
         text-transform:capitalize;
         line-height: 13px;
+        color: #53422b;
+        
     }
     .smallCups{
         display:flex;
@@ -288,7 +295,7 @@ ul  {
         text-decoration: none;
     }
 }
-
+/*smaller */
 @media screen and (max-width: 800px)   {
     header  {
         display:flex;
@@ -326,9 +333,9 @@ ul  {
         overflow:auto;
         align-items:center;
         min-height: 100px;
-        max-height: 350px;
+        max-height: 300px;
         min-width: 200px;
-        max-width: 285px;
+        max-width: 255px;
         margin-right:20px;
     }
     
@@ -346,28 +353,30 @@ ul  {
         justify-content:center;
         align-items:start;
         overflow: hidden;
-        min-width:100px;
-        max-width:180px;
+        min-width:200px;
+        max-width:380px;
         min-height:130px;
         max-height:fit-content;
         margin-left:8px;
-        padding:10px;
+        padding:20px;
+        background-color: yellowgreen;
         
     }
     .starBucksH2  {
         margin:0px auto;
-        font-size: 20px;
+        font-size: 30px;
         line-height: 0px;
         font-weight:500;
         color:rgb(36, 36, 36);
         position:relative;
         width:100%;
         height:100%;
+        color: #5e4c35;
     }
     #Starbucks{
         color:rgb(55, 100, 55);
         font-weight: 700;
-        font-size:23px;
+        font-size:43px;
     }
     .text{
         width:100%;
@@ -376,7 +385,8 @@ ul  {
         font-size:13px;
         text-justify: distribute;
         text-transform:capitalize;
-        line-height: 13px;
+        line-height: 20px;
+        color: #53422b;
     }
     #coffeeContainer{
         display:flex;
@@ -384,7 +394,7 @@ ul  {
         align-items: center;
         align-content: center;
         max-height:50px;
-        min-width:80px;
+        min-width:90px;
         
     }
     .smallCups{
